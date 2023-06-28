@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 새로 추가한 앱
     'accounts',
+    'kapt',
     # 설치한 라이브러리들
     'rest_framework',
     'rest_framework.authtoken',

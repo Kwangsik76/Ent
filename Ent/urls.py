@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('dj_rest_auth.urls')), # 해당 라인 추가
-    path('registration/', include('dj_rest_auth.registration.urls')),
+    path('admin/', admin.site.urls),
+    path('accounts/', include('accounts.urls')),    # accounts/ 경로에 대한 처리 추가
 ]
+
